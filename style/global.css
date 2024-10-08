@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --color-green: #2F4F3E;
+    --color-green-light: #789384;
+    --color-grad-gold: linear-gradient(90deg, #FDC4A6 0%, #A9796B 100%);
+    --color-dark: #171717;
+    --color-dark2: #1F1F1F;
+    --color-gray:#868686;
+    --color-light-beige:#ECE7E3;
+    --color-white:#ffffff;
+}
+
+.container {
+    width: 1440px;
+    margin: auto;
+}
+.container-fluid {
+    padding: 0 40px;
+}
+
+.full-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
